@@ -22,6 +22,9 @@ for (let i = 0; i < gridSize; i++) {
     for (let j = 0; j < gridSize; j++) {
       let boxes = document.createElement("div");
       boxes.classList.add('gridBoxes');
+      boxes.addEventListener("mouseover",function(){
+        boxes.style.backgroundColor = "red";
+      });
       gridContainer.appendChild(boxes);
     }
   } 
