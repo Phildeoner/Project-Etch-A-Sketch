@@ -27,17 +27,6 @@ for (let i = 0; i < gridSize; i++) {
   } 
 }
 
-  //Create an hover
-  let hoverEffect = document.querySelector(".j-grid");
-   hoverEffect.addEventListener("mouseover", 
-    function(){
-      hoverEffect.classList.add("effect");
-    });
-  hoverEffect.addEventListener("mouseout", 
-    function(){
-      hoverEffect.classList.remove("effect");
-    });
-
 
 //A function to  to draw a pixelated trail on the canvas
 let canvas = createCanvas(100,100);
