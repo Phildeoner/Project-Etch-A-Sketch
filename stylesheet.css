@@ -13,3 +13,9 @@
     float: left;
     border: 0.1px solid black;
   }
+
+  #gridSizeBtn{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+  }
