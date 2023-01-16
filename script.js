@@ -6,18 +6,22 @@ gridSizeBtn.addEventListener("click", generateGrid);
 function generateGrid() {
   let gridSize = prompt("Input Your Desired Grid Size:");
   gridSize = parseInt(gridSize);
+  if(gridSize > 100){
+    alert("The maximum grid size is 100, please enter a valid size.");
+    return;
+  };
 
 //To capture the grid-container id in html div
 const gridContainer = document.getElementById("grid-container");
 //Create a loop to create grids
-for (let i = 0; i < 16; i++) {
-    for (let j = 0; j < 16; j++) {
-      let square = document.createElement("div");
-      square.classList.add('gridBoxes');
-      gridContainer.appendChild(square);
+for (let i = 0; i < gridSize; i++) {
+    for (let j = 0; j < gridSize; j++) {
+      let boxes = document.createElement("div");
+      boxes.classList.add('gridBoxes');
+      gridContainer.appendChild(boxes);
     }
   } 
-  }
+}
 
   //Create an hover
   let hoverEffect = document.querySelector(".j-grid");

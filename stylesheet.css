@@ -1,11 +1,16 @@
-.j-grid:hover {
-    
+*{
+    margin: 0;
+    padding: 0;
+}
+.gridBoxes:hover {
+    background-color: rgb(218, 76, 76);
     box-shadow: 0 0 0.5em black;
 }
 
 .gridBoxes {
-    width: 25px;
-    height: 25px;
-    background-color: #ddd;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(238, 233, 233);
     float: left;
+    border: 0.1px solid black;
   }
