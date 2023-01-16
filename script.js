@@ -2,6 +2,9 @@
 const gridSizeBtn = document.getElementById("gridSizeBtn");
 gridSizeBtn.addEventListener("click", generateGrid);
 
+//To capture the grid-container id in html div
+const gridContainer = document.getElementById("grid-container");
+
 //A generateGrid function to accept input for grid size
 function generateGrid() {
   let gridSize = prompt("Input Your Desired Grid Size:");
@@ -10,9 +13,10 @@ function generateGrid() {
     alert("The maximum grid size is 100, please enter a valid size.");
     return;
   };
+  //set gridConatiner.innerHTML to an empty string to clear existing grid and create new on input
+  gridContainer.innerHTML = '';
 
-//To capture the grid-container id in html div
-const gridContainer = document.getElementById("grid-container");
+
 //Create a loop to create grids
 for (let i = 0; i < gridSize; i++) {
     for (let j = 0; j < gridSize; j++) {
