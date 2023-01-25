@@ -39,4 +39,18 @@ function resetBoard () {
   generateGrid(size);
 };
 reset.addEventListener("click", resetBoard);
+
+gridSize.addEventListener("keyup", function() {
+  size = gridSize.value;
+  resetBoard();
+})
+
+window.addEventListener("mousedown", function(){
+  draw = true;
+});
+window.addEventListener("mouseup", function(){
+  draw = false;
+});
+
+generateGrid(size);
   
