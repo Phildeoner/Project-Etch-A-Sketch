@@ -1,9 +1,11 @@
-//Set button to capture grid size
-const gridSizeBtn = document.getElementById("gridSizeBtn");
-gridSizeBtn.addEventListener("click", generateGrid);
-
-//To capture the grid-container id in html div
-const gridContainer = document.getElementById("grid-container");
+//DOM elements from html and variables
+const container = document.querySelector("#grid-container");
+const gridSize = document.querySelector(".gridSize");
+let size = gridSize.value;
+const color = document.querySelector(".color");
+const reset = document.querySelector("#reset");
+let draw = false;
+const text = document.querySelector(".text");
 
 //A generateGrid function to accept input for grid size
 function generateGrid() {
