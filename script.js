@@ -8,13 +8,29 @@ let draw = false;
 const text = document.querySelector(".text");
 
 //A generateGrid function to accept input for grid size
-function generateGrid() {
-  let gridSize = prompt("Input Your Desired Grid Size:");
-  gridSize = parseInt(gridSize);
-  if(gridSize > 100){
-    alert("The maximum grid size is 100, please enter a valid size.");
-    return;
-  };
+function generateGrid(size) {
+  if (size <= 50){
+    container.style.setProperty("--size", size)
+    for (let i = 0; i < size * size; i++) {
+      const div = document.createElement("div");
+      div.classList.add("gridBoxes");
+      div.addEventListener("mouseover", function(){
+        if(!draw) return;
+        div.style.backgroundColor = color.value;
+    });
+    div.addEventListener("mousedown", function(){
+      div.style.backgroundColor = color.value;
+    });
+      container.appendChild(div);
+    }
+  } else {
+    gridSize.classList.add("error");
+    setTimeout(() => {
+      // remove error class after 1 sec
+      gridSize.classList.remove("error");
+    }, 1000);
+  }
+}
   //set gridConatiner.innerHTML to an empty string to clear existing grid and create new on input
   gridContainer.innerHTML = '';
 
