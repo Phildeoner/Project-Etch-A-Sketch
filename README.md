@@ -27,7 +27,7 @@
 <h2 id = "about"><b> About The Project</b></h2>
 
 ---
-![screenshot](images/Sketch-Board.png)<br>
+![screenshot]([images/Sketch-Board.png](https://github.com/Phildeoner/Project-Etch-A-Sketch/blob/feature/Images/Sketch-Board.png))<br>
 
 <b>This is a sketch board designed to contain properties such as:</b>
 - Having a 16 X 16 grid squares by default which can be adjusted by inputing a desired grid size
