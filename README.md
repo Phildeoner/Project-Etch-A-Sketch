@@ -55,9 +55,7 @@
 
 ---
 To assess this app, here are simple steps to follow:
-1. click [Here](https://github.com/Phildeoner/Project-Etch-A-Sketch) to be directed to the project repo
-2. Copy the repo address/link
-3. Open your terminal, console or git bash to clone the repo and have a local version of the project
+1. Open your terminal, console or git bash to clone the repo and have a local version of the project
     ```
     git clone https://github.com/Phildeoner/Project-Etch-A-Sketch.git
     ```
@@ -157,8 +155,6 @@ If you have a suggestion that would make this better, please fork the repo and c
 <u>[Back to top](#top)</u>
 
 ---
-
-
 <style>
     button {
         background-color: transparent;
