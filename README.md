@@ -7,9 +7,8 @@
 [![Status badge](https://img.shields.io/badge/ISSUES-0-red.svg?style=plastic&logo=appveyor)](https://shields.io/) 
 [![Status badge](https://img.shields.io/badge/LICENSE-0-blue.svg?style=plastic&logo=appveyor)](https://shields.io/) 
 
-<button onclick="document.getElementById('toc').style.display = (document.getElementById('toc').style.display === 'none' ? 'block' : 'none');">
-  ▼ <b>Table of Contents</b></button>
-<div id = "toc">
+<button onclick="document.getElementById('toc').style.display = (document.getElementById('toc').style.display === 'none' ? 'block' : 'none');" style="background-color: transparent; color: white;cursor: pointer; padding: 5px; border: none; font-size: 16px;"> ▼ <b>Table of Contents</b></button>
+<div id = "toc" style="display:none;">
 
 1. [About The Project](#about)
     - [Built with](#built)
@@ -155,16 +154,4 @@ If you have a suggestion that would make this better, please fork the repo and c
 <u>[Back to top](#top)</u>
 
 ---
-<style>
-    button {
-        background-color: transparent;
-        color: white;
-        cursor: pointer;
-        padding: 5px;
-        border: none;
-        font-size: 16px;
-    }
-  #toc {
-    display: none;
-  }
-</style>
+
