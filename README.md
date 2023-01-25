@@ -72,13 +72,13 @@ To Use this app after executing the steps above, follow the following steps:
 
 1. On your local version you can assess the directory and open index.html file which will be opened in your system default browser.
 
-2. ![input](images/input.png) The above Interface will be seen and you can input your grid size in the input shown by the arrow to get started
+2. ![input](https://github.com/Phildeoner/Project-Etch-A-Sketch/blob/feature/Images/input.png) The above Interface will be seen and you can input your grid size in the input shown by the arrow to get started
 
-3. ![color](images/color.png) Select your desired color to sketch with as shown above.
+3. ![color](https://github.com/Phildeoner/Project-Etch-A-Sketch/blob/feature/Images/color.png) Select your desired color to sketch with as shown above.
 
-4. ![draw](images/draw.png) Use your mouse to hover around the board but will only sketch when the mouse is click to shade a given grid as displayed above.
+4. ![draw](https://github.com/Phildeoner/Project-Etch-A-Sketch/blob/feature/Images/draw.png) Use your mouse to hover around the board but will only sketch when the mouse is click to shade a given grid as displayed above.
 
-5. ![reset](images/reset.png) Use the reset board button to clear the sketch on the board as directed by the arrow in the above image.
+5. ![reset](https://github.com/Phildeoner/Project-Etch-A-Sketch/blob/feature/Images/reset.png) Use the reset board button to clear the sketch on the board as directed by the arrow in the above image.
 
 <u>[Go Back One Step](#started)</u>
 
