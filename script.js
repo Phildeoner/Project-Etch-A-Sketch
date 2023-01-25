@@ -31,30 +31,12 @@ function generateGrid(size) {
     }, 1000);
   }
 }
-  //set gridConatiner.innerHTML to an empty string to clear existing grid and create new on input
-  gridContainer.innerHTML = '';
 
 
-//Create a loop to create grids
-for (let i = 0; i < gridSize; i++) {
-    for (let j = 0; j < gridSize; j++) {
-      let boxes = document.createElement("div");
-      boxes.classList.add('gridBoxes');
-      boxes.addEventListener("mouseover",function(){
-        boxes.style.backgroundColor = "red";
-      });
-      gridContainer.appendChild(boxes);
-    }
-  } 
-}
-
-
-//A function to  to draw a pixelated trail on the canvas
-let canvas = createCanvas(100,100);
-canvas.mousePressed(drawPixel);
-
-function drawPixel() {
-  strokeWeight(4);
-  point(mouseX, mouseY);
-}
+//resetBoard Function to clear board to default
+function resetBoard () {
+  container.innerHTML = "";
+  generateGrid(size);
+};
+reset.addEventListener("click", resetBoard);
   
