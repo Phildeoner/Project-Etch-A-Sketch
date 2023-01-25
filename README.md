@@ -89,16 +89,16 @@ To Use this app after executing the steps above, follow the following steps:
 
 ---
 
-  [x] Click to Reveal Table of Contents
+- [x] Click to Reveal Table of Contents
 
-  [x] Section Navigations (Go back one step link)
+- [x] Section Navigations (Go back one step link)
   
-  [x] Back to top links
+- [x] Back to top links
 
-  [x] Language Support
-- [x] English
-- [ ] Chinese
-- [ ] French
+- [x] Language Support
+  - [x] English
+  - [ ] Chinese
+  - [ ] French
 
 <u>[Go Back One Step](#usage)</u>
 
@@ -126,7 +126,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 <h2 id = "license"><b>License</b></h2>
 
-[ ] None.
+- [ ] None.
 
 <u>[Go Back One Step](#contribution)</u>
 
@@ -155,6 +155,8 @@ If you have a suggestion that would make this better, please fork the repo and c
 <u>[Go Back One Step](#contact)</u>
 
 <u>[Back to top](#top)</u>
+
+---
 
 
 <style>
