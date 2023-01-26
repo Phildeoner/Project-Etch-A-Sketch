@@ -7,8 +7,8 @@
 [![Status badge](https://img.shields.io/badge/ISSUES-0-red.svg?style=plastic&logo=appveyor)](https://shields.io/) 
 [![Status badge](https://img.shields.io/badge/LICENSE-0-blue.svg?style=plastic&logo=appveyor)](https://shields.io/) 
 
-<button onclick="document.getElementById('toc').style.display = (document.getElementById('toc').style.display === 'none' ? 'block' : 'none');" style="background-color: transparent; color: white;cursor: pointer; padding: 5px; border: none; font-size: 16px;"> ▼ <b>Table of Contents</b></button>
-<div id = "toc" style="display: none;">
+<details id = "toc">
+<summary><b>Table of Contents</b></summary>
 
 1. [About The Project](#about)
     - [Built with](#built)
@@ -19,7 +19,7 @@
 6. [License](#license)
 7. [Contact](#contact)
 8. [Aknowledgements](#end)
-</div>
+</details>
 
 ---
 

@@ -16,7 +16,7 @@ function generateGrid(size) {
       div.classList.add("gridBoxes");
       div.addEventListener("mouseover", function(){
         if(!draw) return;
-        div.style.backgroundColor = color.value;
+      div.style.backgroundColor = color.value;
     });
     div.addEventListener("mousedown", function(){
       div.style.backgroundColor = color.value;
@@ -32,12 +32,12 @@ function generateGrid(size) {
   }
 }
 
-
 //resetBoard Function to clear board to default
 function resetBoard () {
   container.innerHTML = "";
   generateGrid(size);
 };
+
 reset.addEventListener("click", resetBoard);
 
 gridSize.addEventListener("keyup", function() {
@@ -48,6 +48,7 @@ gridSize.addEventListener("keyup", function() {
 window.addEventListener("mousedown", function(){
   draw = true;
 });
+
 window.addEventListener("mouseup", function(){
   draw = false;
 });
