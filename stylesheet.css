@@ -1,71 +1,74 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html, body{
-height: 100%;
+html, 
+body {
+  height: 100%;
 }
 
-body{
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-background-color: aliceblue;
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: aliceblue;
 }
 
-.navBar, #grid-container{
-background-color: rgba(100, 82, 82, 0.897);
-width: 800px;
-border-radius: 3px;
+.navBar, 
+#grid-container {
+  background-color: rgba(100, 82, 82, 0.897);
+  width: 800px;
+  border-radius: 3px;
 }
 
-.navBar{
-padding: 10px;
-margin-bottom: 10px;
-display: flex;
-justify-content: center;
-align-self: center;
+.navBar {
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
 
-#reset, input, p {
-height: 30px;
-padding:3px;
-border-color: red;
-box-shadow: 2px 2px 5px black;
-text-shadow: 0.5px 0.5px 3px black;
-color: rgb(0, 0, 0);
-font-size: 20px;
-border-radius: 5px;
+#reset, 
+input, p {
+  height: 30px;
+  padding:3px;
+  border-color: red;
+  box-shadow: 2px 2px 5px black;
+  text-shadow: 0.5px 0.5px 3px black;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  border-radius: 5px;
 }
 
 .text {
-font-size: 15px;
-text-shadow: none;
-padding-top: 7px;
-margin-left: 5px;
-color: aliceblue;
+  font-size: 15px;
+  text-shadow: none;
+  padding-top: 7px;
+  margin-left: 5px;
+  color: aliceblue;
 }
 
 .error {
-box-shadow: 0 0 20px rgb(255, 1, 1);
-border-color: black;
+  box-shadow: 0 0 20px rgb(255, 1, 1);
+  border-color: black;
 }
 
-#reset{
-cursor: pointer;
+#reset {
+  cursor: pointer;
 }
 
-.color{
-padding: 0 0.5px;
-width: 100px;
-margin: 0 10px;
+.color {
+  padding: 0 0.5px;
+  width: 100px;
+  margin: 0 10px;
 }
 
-#grid-container{
---size: 4;
+#grid-container {
+  --size: 4;
   height: 800px;
   display: grid;
   grid-template-columns: repeat(var(--size), 1fr);
@@ -78,6 +81,6 @@ margin: 0 10px;
 }
 
 .gridBoxes {
-background-color: aliceblue;
-border-radius: 2px;
+  background-color: aliceblue;
+  border-radius: 2px;
 }
