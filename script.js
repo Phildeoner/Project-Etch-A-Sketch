@@ -1,4 +1,3 @@
-//DOM elements from html and variables
 const container = document.querySelector("#grid-container");
 const gridSize = document.querySelector(".gridSize");
 let size = gridSize.value;
@@ -7,7 +6,6 @@ const reset = document.querySelector("#reset");
 let draw = false;
 const text = document.querySelector(".text");
 
-//A generateGrid function to accept input for grid size
 function generateGrid(size) {
   if (size <= 50){
     container.style.setProperty("--size", size)
@@ -26,13 +24,11 @@ function generateGrid(size) {
   } else {
     gridSize.classList.add("error");
     setTimeout(() => {
-      // remove error class after 1 sec
       gridSize.classList.remove("error");
     }, 1000);
   }
 }
 
-//resetBoard Function to clear board to default
 function resetBoard () {
   container.innerHTML = "";
   generateGrid(size);
